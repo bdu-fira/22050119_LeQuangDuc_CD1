@@ -31,9 +31,9 @@ Họ và tên
 
 | Thành viên      | Nhiệm vụ | Tham Gia |
 | --------------- | -------- | ------- |
-| Lê Quang Đức    |        chỉnh sửa Word,Frontend, Backend, kết nối database, up github, đưa lên cloud (đã buil lên được docker, nhưng chưa đưa lên aws được)   |   100%      |
-| Tô Gia Dân      |  Backend, Word        |     100%    |
-| Phạm Hoàng Hùng |     Power Point, Frontend, Poster    |      100%   |
+| Lê Quang Đức    |        chỉnh sửa Word, sửa Web , kết nối database, up github, đưa lên cloud (đã buil lên được docker, nhưng chưa đưa lên aws được)   |   100%      |
+| Tô Gia Dân      |  Backend, Word, đưa ra ý kiến cùng phát triển đề tài        |     100%    |
+| Phạm Hoàng Hùng |     Power Point, Frontend, Poster, đưa ra ý kiến cùng phát triển đề tài    |      100%   |
 
 ---
 
@@ -93,37 +93,50 @@ Website bán quần áo là một hệ thống thương mại điện tử đư�
 - Thiết kế theo mô hình MVC (Model - View - Controller)
 - Usecase tổng quát cho các chức năng của khách hàng, nhân viên, quản trị viên
 
-![Mô hình usecase tổng quát](https://i.imgur.com/zyxgUse.jpg)
+![image](https://github.com/user-attachments/assets/f50fa97b-da0d-4401-a758-67d44ad472a4)
+
 
 ## 6. Thiết Kế Cơ Sở Dữ Liệu
 
-![Sơ đồ thực thể quan hệ](https://i.imgur.com/fakeEntityERD.jpg)
+![image](https://github.com/user-attachments/assets/7889826f-8d37-4dd2-bcb9-ebb8ef593a0b)
 
-## 7. Giao Diện Hệ Thống
+## 7. sơ đồ ERD xuất từ 
+![image](https://github.com/user-attachments/assets/6dca8d58-daaf-40ee-ad6f-4eede0aa3af3)
+
+## 8. Giao Diện Hệ Thống
 
 ### Giao diện người dùng:
 
 - Trang chủ  
-  ![Giao diện trang chủ](https://i.imgur.com/pageHome.jpg)
+![image](https://github.com/user-attachments/assets/5a3dac7d-d41e-42aa-af60-87eac04f06b4)
+
 
 - Danh mục sản phẩm  
-  ![Giao diện danh mục](https://i.imgur.com/pageCategory.jpg)
+  ![image](https://github.com/user-attachments/assets/2e947215-b7e9-4516-ad77-777f9cc40439)
+
 
 - Giỏ hàng  
-  ![Giao diện giỏ hàng](https://i.imgur.com/pageCart.jpg)
+![image](https://github.com/user-attachments/assets/868449f1-1e8e-4d04-9336-f30b67653ccd)
 
-- Đăng nhập & Đăng ký  
-  ![Giao diện đăng nhập](https://i.imgur.com/pageLogin.jpg)
+
+- Đăng nhập & Đăng ký
+  + Đăng Ký 
+  ![image](https://github.com/user-attachments/assets/f6061c25-d5c3-4dd4-baf0-007445956397)
+  + Đăng Nhập
+    ![image](https://github.com/user-attachments/assets/f5fee5c0-3985-463f-a1fd-d2d0f7859778)
+
 
 ### Giao diện quản trị:
 
 - Quản lý sản phẩm  
-  ![Quản lý sản phẩm](https://i.imgur.com/pageAdminProduct.jpg)
+![image](https://github.com/user-attachments/assets/d2cd5a6b-768c-4b4c-a621-b6227ad8ca41)
+
 
 - Quản lý đơn hàng  
-  ![Quản lý đơn hàng](https://i.imgur.com/pageAdminOrder.jpg)
+![image](https://github.com/user-attachments/assets/cf693fee-9e3e-460c-b4b8-2483b368ee15)
 
-## 8. Kết Quả & Đánh Giá
+
+## 9. Kết Quả & Đánh Giá
 
 | Mục tiêu                 | Đạt được | Ghi chú                                        |
 | ------------------------ | -------- | ---------------------------------------------- |
@@ -133,7 +146,7 @@ Website bán quần áo là một hệ thống thương mại điện tử đư�
 | Tích hợp thanh toán thật | Chưa Đạt | Mới ở mức mô phỏng                             |
 | Thống kê phân tích       | Chưa Đạt | Chưa thực hiện                                 |
 
-## 9. Hướng Phát Triển
+## 10. Hướng Phát Triển
 
 - Tích hợp cổng thanh toán thật (VNPay, Momo)
 - Thêm chức năng đánh giá sản phẩm, wishlist
@@ -141,6 +154,16 @@ Website bán quần áo là một hệ thống thương mại điện tử đư�
 - Tối ưu tốc độ tải trang & bảo mật nâng cao
 - Giao diện mobile + hỗ trợ đa ngôn ngữ
 
-## 10. Tổng Kết
+## 11. Tổng Kết
 
 Đồ án đã đáp ứng đầy đủ các mục tiêu đề ra, mô phỏng được hệ thống Web shop thời trang thực tế. Hệ thống mang tính ứng dụng cao, có thể triển khai thực tế sau khi bổ sung các tính năng thanh toán và bảo mật chuyên sâu hơn.
+
+## 12. Tài Liệu Tham Khảo
+-	Express – Node.js web application framework. Truy cập tại: https://expressjs.com/en/starter/installing.html The Odin Project. 
+-	Fullstack JavaScript Path. Truy cập tại: https://www.theodinproject.com/paths/full-stack-javascript 
+-	W3Schools. SQL Tutorial. Truy cập tại: https://www.w3schools.com/sql/ PostgreSQL.
+-	"Eloquent JavaScript" by Marijn Haverbeke
+-  "CSS Secrets" by Lea Verou
+-  "JavaScript: The Good Parts" by Douglas Crockford
+-  "Node.js Design Patterns" by Mario Casciaro and Luciano Mammino
+-  -	ReactJS. React – A JavaScript library for building user interfaces. Truy cập tại: https://reactjs.org/docs/getting-started.html 
